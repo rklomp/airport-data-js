@@ -1,0 +1,23 @@
+{
+  "name": "airport-data-js",
+  "version": "1.0.0",
+  "description": "Rewritten version of aashishvanand/airport-data-js",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jsonpack": "^1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rklomp/airport-data-js.git"
+  },
+  "author": "René Klomp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rklomp/airport-data-js/issues"
+  },
+  "homepage": "https://github.com/rklomp/airport-data-js#readme"
+}
