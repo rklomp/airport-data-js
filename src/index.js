@@ -1,5 +1,5 @@
 import jsonpack from "jsonpack";
-import compressedData from "./airports.compressed";
+import compressedData from "raw-loader!./airports.compressed";
 
 const airportsData = jsonpack.unpack(compressedData);
 
@@ -15,7 +15,7 @@ function getAirportByIata(iataCode = "") {
     /^[A-Z]{3}$/,
     "Invalid IATA format. Please provide a 3-letter uppercase code, e.g., 'AAA'."
   );
-  const result = airportsData.find((airport) => airport.iata === iataCode);
+  return airportsData.find((airport) => airport.iata === iataCode);
   if (result === undefined) {
     throw new Error(`No data found for IATA code: ${iataCode}`);
   }

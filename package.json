@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rklomp/airport-data-js/issues"
   },
-  "homepage": "https://github.com/rklomp/airport-data-js#readme"
+  "homepage": "https://github.com/rklomp/airport-data-js#readme",
+  "devDependencies": {
+    "raw-loader": "^4.0.2"
+  }
 }
